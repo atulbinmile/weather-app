@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px 50px 100px 50px;
+}
+
+input {
+  width: 400px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 50px;
+  font-size: 30px;
+}
+
+.weather-status {
+  margin: 100px 0px 0 -80px;
+  font-size: 30px;
+}
+
+.date-part {
+  margin: 200px 0 0 -120px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+img {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+}
